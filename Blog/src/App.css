@@ -1,0 +1,121 @@
+html,body, #root, .App, .add-new-article {
+  height: 100%;
+}
+
+html {
+  background-color: lightskyblue;
+  color:white;
+}
+
+.App {
+  background-color: lightskyblue;
+  display: flex;
+  text-align: center;
+}
+
+.blog-left {
+  display: flex;
+  flex-direction: column;
+  min-width: 10%;
+  background-color: hotpink;
+}
+
+.blog-right {
+  display: flex;
+  flex-direction: column;
+  min-width:90%;
+  background-color: lightskyblue;
+}
+
+.app-child:only-child {
+  width: 100%;
+}
+
+.content-default {
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  text-align: justify;
+  justify-content: flex-start;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.titles {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  margin: 0px;
+  overflow-y: auto;
+}
+
+.title:hover {
+  background-color: lightskyblue; 
+}
+
+.button {
+  color: #444444;
+  background: #F3F3F3;
+  border: 1px #DADADA solid;
+  padding: 5px 10px;
+  border-radius: 2px;
+  font-weight: bold;
+  font-size: 9pt;
+  outline: none;
+}
+
+.button:hover {
+  border: 1px #C6C6C6 solid;
+  box-shadow: 1px 1px 1px #EAEAEA;
+  color: #333333;
+  background: #F7F7F7;
+}
+
+.button:active {
+  box-shadow: inset 1px 1px 1px #DFDFDF;   
+}
+
+.add-new-article {
+  background-color: lightskyblue; 
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.add-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top:10px;
+  width: 400px;
+}
+
+.title-to-send {
+  width: 400px;
+  overflow-y: scroll;
+  resize: none;
+}
+
+.content-to-send {
+  width: 400px;
+  height: 400px;
+  overflow-y: scroll;
+  resize: none;
+}

@@ -1,0 +1,35 @@
+.chat-app{
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.display-panel { 
+  display: flex;
+  flex-direction: row;
+}
+
+.users { 
+  border: 1px solid black;
+  list-style: none;
+  padding: 5px;
+  margin: 0;
+}
+
+.messages { 
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.message { 
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+}
+
+.meta-info { 
+  min-width: 100px;
+  background-color: lightgrey;
+  padding: 5px;
+}

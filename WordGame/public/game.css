@@ -1,0 +1,101 @@
+#word-app {
+	display: flex;
+	flex-direction: row; 
+	background-color: lightgray;
+	border: 1px solid black;
+}
+
+.word-div {
+	display: flex;
+	flex-direction: row;
+	width: 30%;
+	border: 1px solid black;
+	padding: 0;
+  	margin: 0;
+}
+
+.word-div__title {
+	display: flex;
+	justify-content: center;
+}
+
+.word-div__valid{
+	display: flex;
+	width:30%;
+	flex-direction: column;
+	border: 1px solid black;
+}
+
+.word-div__guessed{
+	display: flex;
+	width:70%;
+	flex-direction: column;
+	border: 1px solid black;
+}
+
+.word-div__valid-list{
+	display: flex;
+	flex-direction: column;
+	overflow-y: scroll;
+	border: 1px solid black;
+	list-style-type: none;
+}
+
+.word-div__guessed-list{
+	display: flex;
+	flex-direction: column;
+	overflow-y: scroll;
+	border: 1px solid black;
+	list-style-type: none;
+}
+
+.word-div__valid-list-item {
+	display: flex;
+}
+
+.word-div__guessed-list-item {
+	display: flex;
+	justify-content: space-around;
+}
+
+.play-information-div {
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	border: 1px solid black;
+}
+
+.play-information-div__current-turns {
+	display: flex;
+	justify-content: center;
+	border: 1px solid black;
+}
+
+.play-information-div__message {
+	display: flex;
+	justify-content: center;
+	border: 1px solid black;
+}
+
+.play-information-div__user-control {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border: 1px solid black;
+}
+
+.play-information-div__input-field {
+	display: flex;
+	justify-content: center;
+	padding: 0;
+  	margin: 0;
+	border: 1px solid black;
+}
+
+.play-information-div__restart-button {
+	display: flex;
+	padding: 0;
+  	margin: 0;
+	justify-content: center;
+	border: 1px solid black;
+}
