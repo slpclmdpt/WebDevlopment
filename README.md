@@ -1,3 +1,3 @@
 # WebDevlopment
 
-Here are some of my react based web projects.
+Here are some of my web projects.
